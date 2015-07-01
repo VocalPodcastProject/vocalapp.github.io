@@ -1,0 +1,25 @@
+---
+layout: main
+---
+
+<article class="post">
+
+  <header>
+    <a href="{{ site.baseurl }}{{ page.permalink }}">
+      <span class="date">{{ page.date | date: "%e %B %Y" }}</span>
+      <h1>{{ page.title }}</h1>
+    </a>
+  </header>
+
+  <section class="content">
+    {{ content }}
+  </section>
+
+  <footer>
+    {% if page.comments != false %}
+      {% include disqus.html disqus_identifier=page.disqus_identifier %}
+    {% endif %}
+    <!-- Link to newer and older post here -->
+  </footer>
+
+</article>

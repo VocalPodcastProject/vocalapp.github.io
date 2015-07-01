@@ -1,0 +1,252 @@
+// Base
+html, body {
+  background: $background_body;
+  font: 16px/2em $font_body;
+  color: $color_body;
+}
+html {
+  background: $background_header;
+}
+body {
+  font: 1.125rem/2.25rem $font_body;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: $font_heading;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  clear: both;
+
+  color: #1a1a1a;
+
+  margin: 2rem 0;
+  padding: 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+h1, .h1 {
+  font-size: 2rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+h2, .h2 {
+  font-size: 1.375rem;
+  color: #4a4a4a;
+}
+h3, .h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+h4, .h4 {font-size: 1rem;}
+h5, .h5 {font-size: 1rem;}
+h6, .h6 {font-size: 1rem;}
+
+// Text
+p, ul, ol {
+  margin: 1rem 0;
+}
+
+a {
+  color: $color_link;
+  text-decoration: none;
+  cursor: pointer;
+  &:active, &:visited {
+    color: #622828;
+  }
+}
+
+blockquote {
+  margin: 1rem .5rem;
+  border-left: 2px solid #ccc;
+  padding: .5rem;
+  font-style: italic;
+}
+
+hr {
+  background: $color_borders;
+  height: 1px;
+  border: none;
+  padding: 0;
+  margin: 3rem 0;
+  clear: both;
+}
+
+// Lists
+ul, ol {
+  padding-left: 2rem;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img,
+iframe {
+  max-width: 100%;
+
+  &.thumb {
+    width: 150px;
+    box-sizing: content-box;
+  }
+  &.thumb-128 {
+    width: 128px;
+    box-sizing: content-box;
+  }
+
+}
+
+// Floats
+.float-left {
+  float: left;
+  padding: 0 1rem 1rem 0;
+  margin: 0 1rem 1rem 0;
+}
+.float-right {
+  float: right;
+  padding: 0 0 1rem 1rem;
+  margin: 0 0 1rem 1rem;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.half {
+  width: 50%;
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+
+// Posts
+.post {
+  max-width: 700px;
+  margin: 8rem auto;
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  header, section.entry, footer {
+    margin: 2rem 0;
+  }
+  header {
+    text-align: center;
+    h1 {
+      margin: 1rem 0;
+    }
+  }
+}
+
+.date {
+  color: $color_subtle;
+}
+.text-center {
+  text-align: center;
+}
+
+// Big fat "download starter pack" button
+.button {
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #272727;
+  font-size: 1rem;
+  font-family: $font_heading;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  opacity: 1;
+  transition: opacity 0.1s linear 0s;
+  display: inline-block;
+  &:hover {
+    opacity: .8;
+  }
+}
+
+// Multicolumn content
+.row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin: -1rem;
+
+  > * {
+    -webkit-flex: 1 0 20rem;
+    flex: 1 0 20rem;
+    margin: 1rem;
+  }
+  > last-child {
+    margin: 0;
+  }
+}
+
+// Tables
+/*
+ * This section is currently specifically tailored towards the Downloads page
+ * and should be rewritten to allow proper tables in blog posts
+ */
+table {
+  margin: 1rem 0;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+}
+th, td {
+  border: none;
+  padding: .5rem .5rem;
+  width: 50%;
+}
+th {
+  font-weight: bold;
+  background-color: #eee;
+}
+
+// Selection
+::-moz-selection {
+  color: $color_header;
+  background: $background_header;
+}
+::selection {
+  color: $color_header;
+  background: $background_header;
+}

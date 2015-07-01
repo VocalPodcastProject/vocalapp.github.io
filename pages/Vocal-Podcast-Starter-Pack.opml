@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+    <title>Vocal Podcast Starter Pack</title>
+    <dateCreated>2014-12-16T16:18:41-0500</dateCreated>
+    <dateModified>2014-12-16T16:18:41-0500</dateModified>
+</head>
+<body>
+    <outline text="Bad Voltage" type="rss" xmlUrl="http://www.badvoltage.org/feed/mp3/"/>
+    <outline text="Coverville" type="rss" xmlUrl="http://feeds.feedburner.com/CovervilleAAC"/>
+    <outline text="DLC" type="rss" xmlUrl="http://feeds.5by5.tv/dlc"/>
+    <outline text="Daily Tech News Show" type="rss" xmlUrl="http://feeds.feedburner.com/DailyTechNewsShow"/>
+    <outline text="Film Riot (HD MP4 - 30fps)" type="rss" xmlUrl="http://revision3.com/filmriot/itunes/mp4-hd30"/>
+    <outline text="Foundation" type="rss" xmlUrl="http://foundation.squealingrat.org/feed/"/>
+    <outline text="NPR: Wait Wait... Don%27t Tell Me! Podcast" type="rss" xmlUrl="http://www.npr.org/rss/podcast.php?id=344098539"/>
+    <outline text="Scam School (HD MP4 - 30fps)" type="rss" xmlUrl="http://testtube.com/scamschool/itunes/mp4-hd30/"/>
+    <outline text="Serial" type="rss" xmlUrl="http://feeds.serialpodcast.org/serialpodcast"/>
+    <outline text="StarTalk Radio" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:38128127/sounds.rss"/>
+    <outline text="Still Untitled: The Adam Savage Project" type="rss" xmlUrl="http://www.tested.com/podcast-xml/still-untitled-the-adam-savage-project/"/>
+    <outline text="The Alton Browncast" type="rss" xmlUrl="http://altonbrown.com/feed/podcast/"/>
+    <outline text="The Bugle" type="rss" xmlUrl="http://feeds.feedburner.com/thebuglefeed"/>
+    <outline text="The Ihnatko Almanac" type="rss" xmlUrl="http://feeds.5by5.tv/ia"/>
+    <outline text="The Morning Stream" type="rss" xmlUrl="http://myextralife.com/ftp/radio/morningstream.xml"/>
+    <outline text="The Nerdist" type="rss" xmlUrl="http://nerdist.libsyn.com/rss"/>
+    <outline text="The Vergecast" type="rss" xmlUrl="http://feeds.feedburner.com/ThisIsMyNextPodcast"/>
+    <outline text="Top Shelf" type="rss" xmlUrl="http://feeds.feedburner.com/topshelfhd"/>
+</body>
+</opml>
