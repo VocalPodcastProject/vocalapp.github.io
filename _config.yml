@@ -14,7 +14,7 @@ footer-links:
   email: mail@nathandyer.me
   facebook: 
   flickr: 
-  github: '#vocal'
+  github: vocalapp
   googleplus: 115162318639836328992
   instagram: 
   linkedin: 
@@ -34,7 +34,7 @@ piwik_siteid:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: "http://quassy.github.io/"
+url: "http://vocalproject.net"
 
 # If you're hosting your site at a Project repository on GitHub pages 
 # (http://yourusername.github.io/repository-name)
