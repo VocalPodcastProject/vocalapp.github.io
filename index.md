@@ -12,23 +12,27 @@ layout: page
   <div id="item-5" class="control-operator"></div>
 
   <figure class="item">
-    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-03-55.png" alt="playing video" />
+    <img src="{{ site.baseurl }}/images/home/01.png" alt="Library View" />
   </figure>
 
   <figure class="item">
-    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-05-26.png" alt="playing another video" />
+    <img src="{{ site.baseurl }}/images/home/02.png" alt="iTunes Top 100" />
   </figure>
 
   <figure class="item">
-    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-07-43.png" alt="download menu" />
+    <img src="{{ site.baseurl }}/images/home/03.png" alt="Searching" />
   </figure>
 
   <figure class="item">
-    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-08-42.png" alt="cover view" />
+    <img src="{{ site.baseurl }}/images/home/04.png" alt="Complete Search View" />
   </figure>
 
   <figure class="item">
-    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-10-39.png" alt="desktop screenshot with notification" />
+    <img src="{{ site.baseurl }}/images/home/05.png" alt="Playing Video" />
+  </figure>
+
+  <figure class="item">
+    <img src="{{ site.baseurl }}/images/home/06.png" alt="HTML Shownotes" />
   </figure>
 
   <div class="controls">
@@ -37,6 +41,7 @@ layout: page
     <a href="#item-3" class="control-button"><i class="fa fa-circle"></i></a>
     <a href="#item-4" class="control-button"><i class="fa fa-circle"></i></a>
     <a href="#item-5" class="control-button"><i class="fa fa-circle"></i></a>
+    <a href="#item-6" class="control-button"><i class="fa fa-circle"></i></a>
   </div>
 </div>
 
