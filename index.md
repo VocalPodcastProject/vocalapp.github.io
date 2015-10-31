@@ -35,6 +35,10 @@ layout: page
     <img src="{{ site.baseurl }}/images/home/06.png" alt="HTML Shownotes" />
   </figure>
 
+  <figure class="item">
+    <img src="{{ site.baseurl }}/images/home/01.png" alt="Library View" />
+  </figure>
+
   <div class="controls">
     <a href="#item-1" class="control-button"><i class="fa fa-circle"></i></a>
     <a href="#item-2" class="control-button"><i class="fa fa-circle"></i></a>
@@ -42,6 +46,7 @@ layout: page
     <a href="#item-4" class="control-button"><i class="fa fa-circle"></i></a>
     <a href="#item-5" class="control-button"><i class="fa fa-circle"></i></a>
     <a href="#item-6" class="control-button"><i class="fa fa-circle"></i></a>
+    <a href="#item-7" class="control-button"><i class="fa fa-circle"></i></a>
   </div>
 </div>
 
