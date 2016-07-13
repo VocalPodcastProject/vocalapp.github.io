@@ -90,7 +90,7 @@ sudo apt-get install vocal</code></pre>
 
 <img class="float-left thumb-128" src="{{ site.baseurl }}/images/download/archlinux.svg" />
 
-Vocal 1.0 is already available in the Arch User Repository (AUR)! For more information, please visit [this link for details of the package](https://aur.archlinux.org/packages/vocal-stable/).
+Vocal 1.0 is already available in the Arch User Repository (AUR)! For more information, please visit [this link for details of the package](https://aur.archlinux.org/packages/vocal/).
 
 ## Source
 
