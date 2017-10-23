@@ -1,0 +1,146 @@
+body {
+    background-color: #fbfbf4;
+    padding: 0;
+    padding-top: 5%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Neuton', serif;
+    font-size: 3em;
+    color: #21211f;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Neuton', serif;
+    font-size: 2em;
+    color: #21211f;
+}
+
+h3, h5 {
+    text-align: left;
+    padding-left: 1em;
+    font-family: 'Neuton', serif;
+    font-size: 1.7em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+h4, p, li, a {
+    font-family: 'Adamina', serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.subtitle-large {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.subtitle-small {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.subtitle-image {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feature {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#features {
+    color: #ffffff;
+    background-color: #343434;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#features h3 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 30px;
+    font-size: 2.5em;
+}
+
+#feature-float, #install-options, #social {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: row-reverse wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+#download p {
+    text-align: center;
+}
+.download-option, .social-item {
+    display: block;
+    margin: 0 auto;
+}
+
+.download-option img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.download-option:hover, .social-item:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);   
+}
+
+#get-involved {
+    background-color: #343434;
+    color: #ffffff;
+}
+
+#get-involved h3 {
+    padding-top: 5%;
+}
+
+#get-involved #github {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#get-involved a, #get-involved a:link, #get-involved a:visited, #get-involved a:active {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    margin: 30px 20px;
+}
+
+#main-screenshot {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#main-icon {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#social {
+    margin-bottom: 50px;
+}
