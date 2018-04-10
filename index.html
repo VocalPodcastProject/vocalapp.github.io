@@ -65,6 +65,36 @@
             </div>
         </div>
         
+        <div id="screenshots">
+            <h3>Screenshots</h3>
+            <img width=70% class="screenshot" src="screenshots/libraryview.png">
+            <img width=70% class="screenshot" src="screenshots/podcastview.png">
+            <img width=70% class="screenshot" src="screenshots/itunes.png">
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+        
+        <!-- Script below adapted from a W3C example -->
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("screenshot");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length} ;
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex-1].style.display = "block";
+            }
+        </script>
+        
         <div id="download">
             <h3>Download</h3>
             
@@ -81,46 +111,40 @@
                         <img src="images/flatpak.png" height=150 alt="Flatpak Icon" />
                     </a>
                 </div>
+
             </div>
 
             <p>Also available in GNOME Software out-of-the-box in Fedora and openSUSE.</p>
         </div>
         
-
+        <h3 class="dark-background" style="margin-bottom: 0%; padding-bottom: 3%;">Get Involved</h3>
         <div id="get-involved">
-            <h3>Get Involved</h3>
-            <a id="github" href="https://github.com/needle-and-thread/vocal">
-                <img src="images/github_logo.png" width=200 alt="GitHub logo" />
-                <img src="images/github_icon.png" width=80 alt="GitHub icon" />
-            </a>
-            <ul>
-                <li><a href="https://github.com/needle-and-thread/vocal">See the code</a></li>
-                <li><a href="https://github.com/needle-and-thread/vocal/issues">Report an issue or request a feature</a></li>
-                <li><a href="https://github.com/needle-and-thread/vocal/pulls">Make a pull request</a></li>
-                <li><a href="https://github.com/needle-and-thread/vocal/wiki">See the project roadmap</a></li>
-                <li><a href="https://github.com/needle-and-thread/vocal/wiki/FAQ">Get help from the FAQ</a></li>
-                <li><a href="https://www.transifex.com/needle-and-thread/vocal/">Contribute translations</a></li>
-            </ul>
-            <p></p>
+            
+            <div id="github">
+                <a id="github" href="https://github.com/needle-and-thread/vocal">
+                    <img src="images/github_logo.png" width=200 alt="GitHub logo" />
+                    <img src="images/github_icon.png" width=80 alt="GitHub icon" />
+                </a>
+            </div>
+            <div id="get-involved-links">
+                <ul>
+                    <li><a href="https://github.com/needle-and-thread/vocal">See the code</a></li>
+                    <li><a href="https://github.com/needle-and-thread/vocal/issues">Report an issue or request a feature</a></li>
+                    <li><a href="https://github.com/needle-and-thread/vocal/pulls">Make a pull request</a></li>
+                    <li><a href="https://github.com/needle-and-thread/vocal/wiki">See the project roadmap</a></li>
+                    <li><a href="https://github.com/needle-and-thread/vocal/wiki/FAQ">Get help from the FAQ</a></li>
+                    <li><a href="https://www.transifex.com/needle-and-thread/vocal/">Contribute translations</a></li>
+                </ul>
+            </div>
         </div>
         
         
         <div id="contact-us">
             <h3 class="subtitle-large">Stitched with love by Needle &amp; Thread</h3>
+            <img class="subtitle-image" width=5% src="images/nt_color_logo.png" alt="Needle and Thread logo" />
             <h3 class="subtitle-small">and a passionate community of developers and podcast fans.</h3>
-            <img class="subtitle-image" width=20% src="images/nt_color_logo.png" alt="Needle and Thread logo" />
-            <hr />
-            <div id="social">
-                <div class="social-item">
-                    <h4>Follow Us @NeedleThreadCo</h4>
-                    <a href="https://twitter.com/NeedleThreadCo"><img src="images/twitter_logo.png" height=100 alt="Twitter logo"></a>
-                </div>
-                <div class="social-item">
-                    <h4>Read Our Blog</h4>
-                    <a href="https://medium.com/needle-thread/"><img src="images/medium.png" height=50 alt="Medium woodmark"></a>
-                </div>
-                
-            </div>
+            
+            <p>Unless otherwise noted, the contents on this website are licensed under the Creative Commons CC-BY-SA 4.0 license. Contributions welcome on <a href="https://github.com/needle-and-thread/vocalapp.github.io">GitHub</a>. <a href="https://twitter.com/NeedleThreadCo">Follow us on Twitter @NeedleThreadCo.</a></p>
         </div>
     </body>
 </html>

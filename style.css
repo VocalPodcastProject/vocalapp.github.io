@@ -1,3 +1,5 @@
+/* General Style Settings */
+
 body {
     background-color: #fbfbf4;
     padding: 0;
@@ -20,10 +22,11 @@ h2 {
 }
 
 h3, h5 {
-    text-align: left;
-    padding-left: 1em;
-    font-family: 'Neuton', serif;
-    font-size: 1.7em;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 0;
+    font-size: 2.5em;
 }
 
 h4 {
@@ -40,8 +43,13 @@ h4, p, li, a {
     padding-bottom: 5px;
 }
 
-#features h3 {
-    padding-left: 0;
+hr {
+    margin: 30px 20px;
+}
+
+.dark-background {
+    background-color: #343434;
+    color: white;
 }
 
 .subtitle-large {
@@ -60,9 +68,19 @@ h4, p, li, a {
     text-align: center;
 }
 
-.feature {
-    width: 40%;
+/* Individual elements */
+
+#main-icon {
+    display: block;
+    text-align: center;
     margin: 0 auto;
+}
+
+
+#main-screenshot {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
 }
 
 #features {
@@ -72,14 +90,13 @@ h4, p, li, a {
     margin: 0 auto;
 }
 
-#features h3 {
-    text-align: center;
-    margin-top: 0;
-    padding-top: 30px;
-    font-size: 2.5em;
+/* The feature class applies to individual features */
+.feature {
+    width: 40%;
+    margin: 0 auto;
 }
 
-#feature-float, #install-options, #social {
+#feature-float, #install-options, #get-involved {
     display: -webkit-flex; /* Safari */
     -webkit-flex-flow: row-reverse wrap; /* Safari 6.1+ */
     display: flex;
@@ -87,12 +104,44 @@ h4, p, li, a {
     text-align: center;
 }
 
-#download p {
-    text-align: center;
+#screenshots {
+    padding-bottom: 2%;
 }
-.download-option, .social-item {
+#screenshots, #screenshots img {
     display: block;
     margin: 0 auto;
+    text-align: center;
+}
+
+#screenshots h3 {
+    margin-bottom: 0;
+}
+
+#download {
+    background-color: #85003f;
+    color: #FFF;
+    padding-bottom: 2%;
+}
+
+#download p {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 0%;
+}
+
+#download h4 {
+    color: #000;
+}
+
+.download-option{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 10px;
+    border: 1px dashed #343434;
 }
 
 .download-option img {
@@ -114,37 +163,40 @@ h4, p, li, a {
     color: #ffffff;
 }
 
+#get-involved #github {
+    text-align: left;
+}
+
 #get-involved h3 {
     padding-top: 5%;
 }
 
-#get-involved #github {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+
+#get-involved div {
+    width: 30%;
+    margin: auto auto;
 }
 
-#get-involved a, #get-involved a:link, #get-involved a:visited, #get-involved a:active {
+#get-involved-links {
+    text-align: left;
+}
+
+#github a img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+#get-involved-links a, #get-involved-links a:link, #get-involved-links a:visited, #get-involved-links a:active {
     color: white;
     text-decoration: none;
 }
 
-hr {
-    margin: 30px 20px;
+#get-involved {
+    padding-bottom: 2%;
 }
 
-#main-screenshot {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-}
-
-#main-icon {
-    display: block;
+#contact-us p {
+    font-size: 0.7em;
     text-align: center;
-    margin: 0 auto;
-}
-
-#social {
-    margin-bottom: 50px;
 }
