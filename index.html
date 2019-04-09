@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link href="https://fonts.googleapis.com/css?family=Adamina|Neuton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Adamina|Neuton|Mukta" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>Vocal - Podcast client for the free desktop.</title>
     </head>
@@ -37,6 +37,12 @@
                     <h4>Streaming and Downloading</h4>
                     <p>Stream episodes on-the-fly, or save them for offline listening or permanent archival.</p>
                 </div>
+                
+                <div class="feature">
+                    <h4>Internet Archive Integration</h4>
+                    <p>Effortlessly upload Creative Commons-licensed podcast episodes to the Internet Archive from
+                    directly within Vocal.</p>
+                </div>
 
                 <div class="feature">
                     <h4>Custom Skip Intervals</h4>
@@ -51,6 +57,11 @@
                 <div class="feature">
                     <h4>Position Saving</h4>
                     <p>Vocal remembers exactly where you were in each episode, so it can start back right where you left off.</p>
+                </div>
+                
+                <div class="feature">
+                    <h4>Light and Dark Themes</h4>
+                    <p>Switch between light and dark themes depending on your mood or to prevent eye strain.</p>
                 </div>
 
                 <div class="feature">
@@ -99,33 +110,45 @@
             <h3>Download</h3>
 
             <div id="install-options">
-                <div class="download-option">
+                <a href="appstream://com.github.needle-and-thread.vocal.desktop" class="download-option">
                     <h4>elementary OS</h4>
-                    <a href="appstream://com.github.needle-and-thread.vocal.desktop">
-                        <img src="images/appcenter.png" alt="AppCenter Icon" />
-                    </a>
-                </div>
-                <div class="download-option">
+                    <img src="images/appcenter.png" alt="AppCenter Icon" />
+                </a>
+                <a href="https://flathub.org/repo/appstream/com.github.needleandthread.vocal.flatpakref" class="download-option">
                     <h4>Flatpak for All Linux Distributions</h4>
-                    <a href="https://flathub.org/repo/appstream/com.github.needleandthread.vocal.flatpakref">
-                        <img src="images/flatpak.png" height=150 alt="Flatpak Icon" />
-                    </a>
-                </div>
+                    <img src="images/flatpak.png" height=150 alt="Flatpak Icon" />
+                </a>
 
             </div>
 
             <p>Also available in GNOME Software out-of-the-box in Fedora and openSUSE.</p>
         </div>
+        
+        <div id="support">
+            <h3>Support the Project</h3>
+            <h5 style="padding-top: 0" >With a One Time or Recurring Donation</h5>
+            <a href="https://patreon.com/needlethreadco" id="patreon" class="donation-option">
+                <img width=100 src="images/Patreon_Mark_Coral.jpg" alt="Patreon logo">
+                <p><strong>Patreon</strong></p>
+                <p>Recurring Support</p>
+            </a>
+            
+            <a href="https://liberapay.com/needleandthread" id="liberapay" class="donation-option">
+                <img width=100 src="images/liberapay.png" alt="liberapay logo">
+                <p><strong>Liberapay</strong></p>
+                <p>Recurring Support</p>
+            </a>
+            
+            <a href="https://paypal.me/NathanDyer" id="paypal" class="donation-option">
+                <img height=100 src="images/paypal.png" alt="Paypal logo">
+                <p><strong>PayPal</strong></p>
+                <p>One Time Donations</p>
+            </a>
+        </div>
 
         <h3 class="dark-background" style="margin-bottom: 0%; padding-bottom: 3%;">Get Involved</h3>
         <div id="get-involved">
-
-            <div id="github">
-                <a id="github" href="https://github.com/needle-and-thread/vocal">
-                    <img src="images/github_logo.png" width=200 alt="GitHub logo" />
-                    <img src="images/github_icon.png" width=80 alt="GitHub icon" />
-                </a>
-            </div>
+        
             <div id="get-involved-links">
                 <ul>
                     <li><a href="https://github.com/needle-and-thread/vocal">See the code</a></li>
@@ -135,6 +158,17 @@
                     <li><a href="https://github.com/needle-and-thread/vocal/wiki/FAQ">Get help from the FAQ</a></li>
                     <li><a href="https://www.transifex.com/needle-and-thread/vocal/">Contribute translations</a></li>
                 </ul>
+            </div>
+
+            <div style="display: block">
+                <a href="https://github.com/needle-and-thread/vocal">
+                    <img src="images/github_logo.png" width=200 alt="GitHub logo" />
+                    <img src="images/github_icon.png" width=80 alt="GitHub icon" />
+                </a>
+                <br>
+                <a href="https://www.transifex.com/needle-and-thread/vocal/">
+                    <img src="images/transifex.png" width=260 alt="Transifex icon" />
+                </a>
             </div>
         </div>
 
