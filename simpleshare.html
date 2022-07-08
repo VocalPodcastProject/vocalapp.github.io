@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vocal Episode Share</title>
+    <style>
+        * {
+            text-align: center;
+            font-family: 'Neuton', serif;
+        }
+        body {
+            background-color: ##fbfbf4;
+        }
+        img {
+            margin: 3em;
+            width: 250px;
+            border-radius: 15%;
+        }
+    </style>
+  </head>
+  <body>
+    <h1 id="episodeTitle"><h1>
+    <h2 id="podcastName"></h2>
+    <br />
+    <img id="art" src=""></img>
+    <br />
+    <audio id="audio" src="" 
+  	type="audio/mpeg" 
+  	controls>
+  	    I'm sorry. You're browser doesn't support HTML5 audio.
+    </audio>
+    <br />
+    <p>Shared by <a href="https://vocalproject.net">Vocal, a podcast app for Linux</a></p>
+  
+    <script>
+      const urlParams = new URLSearchParams(window.location.href);
+      
+      const name = urlParams.get('podcastName');
+      document.getElementById('podcastName').innerHTML = name;
+      
+      const title = urlParams.get('episodeTitle');
+      document.getElementById('episodeTitle').innerHTML = title;
+  
+      const artUri = urlParams.get('artUri')
+      document.getElementById("art").src = artUri;
+
+      const mediaUri = urlParams.get('mediaUri')
+      document.getElementById("audio").src = mediaUri;
+    </script>
+  </body>
+</html>
